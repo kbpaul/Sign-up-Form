@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image-content">
+        <div class="logo-content">
+            <img src="images/odin-lined.png" alt="">
+            <h1>ODIN</h1>
+        </div>
+        <div class="footer">
+            <p>Photo by Halie west on Unsplash</p>
+        </div>
+    </div>
+    <div class="form-content">
+        <div class="simple-text">
+            <p>This is not a real online service! You know you need something like this in your ife to help you realize your deepest dreams.Sign up now to get started.</p>
+            <p>You know you want to.</p>
+        </div>
+        <form action="#">
+            <fieldset class="input-section">
+                <legend>Let's do this!</legend>
+                <div class="section">
+                    <div class="name">
+                        <label for="name">FIRST NAME:</label>
+                        <input type="text" id="name" name="first_name">
+                    </div>
+                   
+                    <div class="last_name">
+                        <label for="name">LAST NAME:</label>
+                        <input type="text" id="name" name="last_name">
+                    </div>
+                </div>
+
+                
+                <div class="section">
+                    <div class="email">
+                        <label for="email">EMAIL:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    
+                    <div class="phone">
+                        <label for="phone_number">PHONE NUMBER:</label>
+                        <input type="tel" id="phone_number" name="phone_number">
+                    </div>
+                    
+
+                </div>
+                <div class="section">
+                    <div class="password">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    
+                    <div class="password">
+                        <label for="password">COMFIRM PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                </div>  
+            </fieldset>
+            
+            <fieldset class="submit-section">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </fieldset>
+        </form>
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
